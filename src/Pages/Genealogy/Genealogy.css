@@ -1,0 +1,16 @@
+.rd3t-tree-container>svg>g>path {
+  fill: "none";
+  stroke: white;
+  stroke-width: 2;
+}
+
+.rd3t-tree-container>svg>g>g {
+  fill: #3dffdf;
+}
+
+.rd3t-tree-container>svg>g>g>g>text {
+  fill: white;
+  font-size: 20px;
+  font-weight: 200px;
+  padding: 20px;
+}

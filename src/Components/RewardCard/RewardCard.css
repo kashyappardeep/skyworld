@@ -1,0 +1,62 @@
+.rewardCard {
+  padding: 20px;
+  border-radius: 20px;
+  background: var(--containerColor);
+  text-align: center;
+  height: 100%;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rewardCard img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.rewardCardDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rewardCardDiv h5 {
+  font-size: 12px;
+  color: var(--textColor);
+  margin: 0;
+}
+
+.rewardCardDiv h4 {
+  font-size: 14px;
+  color: var(--textHeading);
+  margin: 0;
+  font-weight: 300;
+}
+
+.rewardCardDiv p {
+  font-size: 12px;
+  color: var(--textColor);
+  margin: 0;
+}
+
+.rewardCard h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: var(--colorPrimary);
+}
+
+.rewardCard p {
+  color: var(--textColor);
+  font-weight: 300;
+}
+
+#rewardCardActive {
+  box-shadow: 0px 0px 3px 0px grey;
+  background: black;
+}

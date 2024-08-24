@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  background: var(--bodyColor) !important;
+}
+
+* {
+  font-family: "Lexend Deca", sans-serif;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorPrimary: #3eab95;
+  --shadowColor: #3eab95;
+  --bodyColor: #151515;
+  --containerColor: #1d1d1d;
+  --textColor: rgb(131, 131, 131);
+  --textHeading: white;
+  --sideActiveColor: white;
+  --borderColor: #fff;
+  --lightColor: #252525;
+  --darkLightText: #fff;
+  --darkLightBackground: #181818;
+  --activeTextColor: white;
+  --rewardCardActive: #73ba3f2b;
+  --rewardCardInactive: #72ba3f0c;
+  --colorSuccess: #64ff64;
+  --btnBackground: #3eab95;
+}
+
+/* #73ba3f61  #73ba3f8f */
+::-webkit-scrollbar {
+  background-color: var(--containerColor);
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+}
+
+.container {
+  max-width: 1600px !important;
+}
+
+/* @media (min-width: 1400px) {
+} */
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bodyColor);
+}
+
+.page div {
+  background: var(--containerColor);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.page input {
+  padding: 8px;
+  border-radius: 25px;
+  border: none;
+  background: var(--lightColor);
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.tradingview-widget-container__widget {
+  height: 100vh;
+  width: 100%;
+}
+
+.btnConnect {
+  color: black;
+  font-weight: 700;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 7px 15px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  background: #3eab95;
+  border: 1px solid transparent;
+  transition: background 0.4s;
+}
+
+.btnConnect:hover {
+  border-color: var(--colorPrimary);
+  color: var(--colorPrimary);
+  background: transparent;
+}
+
+#connectButtonAddress {
+  color: var(--colorPrimary);
+  font-size: 12px;
+  border: 1px solid var(--colorPrimary);
+  padding: 5px 10px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#connectButtonAddress i {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.addfundDiv {
+  background-color: var(--containerColor);
+  border-radius: 20px;
+  width: 400px;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0px 0px 2px 0px var(--textColor);
+  max-width: 100%;
+}
+
+.addfundDiv label {
+  width: 100%;
+}
+
+.addfundDiv h1 {
+  color: var(--colorPrimary);
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addfundDiv option {
+  font-size: 18px;
+}
+
+.qrSection {
+  width: 300px;
+  background: var(--containerColor);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0px 0px 2px 0px var(--textColor);
+}
+
+.qrSection p {
+  color: var(--textHeading);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.qrSection h5 {
+  font-size: 20px;
+  color: var(--colorPrimary);
+}
+
+.qrDiv {
+  background: white;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+#qrAddress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.164);
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+#qrAddress p {
+  color: var(--textHeading);
+  word-break: break-all;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  margin-right: 10px;
+  text-align: left;
+}
+
+#qrAddress i {
+  color: var(--colorPrimary);
+  font-size: 20px;
+  display: flex;
+}
+
+#timer {
+  margin: 0;
+  margin-bottom: 0px;
+  color: var(--colorPrimary);
+}

@@ -1,0 +1,85 @@
+.addfundDiv {
+    background-color: var(--containerColor);
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 2px 0px var(--textColor);
+    max-width: 100%;
+}
+
+.addfundDiv label {
+    width: 100%;
+}
+
+.addfundDiv h1 {
+    color: var(--colorPrimary);
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.addfundDiv option {
+    font-size: 18px;
+}
+
+.qrSection {
+    width: 300px;
+    background: var(--containerColor);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 0px 2px 0px var(--textColor);
+}
+
+.qrSection p {
+    color: var(--textHeading);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.qrSection h5 {
+    font-size: 20px;
+    color: var(--colorPrimary);
+}
+
+.qrDiv {
+    background: white;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+#qrAddress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.164);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#qrAddress p {
+    color: var(--textHeading);
+    word-break: break-all;
+    font-size: 12px;
+    font-weight: 300;
+    margin: 0;
+    margin-right: 10px;
+    text-align: left;
+}
+
+#qrAddress i {
+    color: var(--colorPrimary);
+    font-size: 20px;
+    display: flex;
+}
+
+#timer {
+    margin: 0;
+    margin-bottom: 0px;
+    color: var(--colorPrimary);
+}

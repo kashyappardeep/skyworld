@@ -1,0 +1,10 @@
+.inputDivIcon {
+    position: relative;
+}
+
+.inputDivIcon i {
+    position: absolute;
+    right: 10px;
+    color: var(--colorPrimary);
+    font-size: 25px;
+}

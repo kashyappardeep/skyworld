@@ -1,0 +1,186 @@
+.form_check_data {
+    display: flex;
+}
+
+.form_check_data label {
+    color: var(--colorPrimary);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form_check_data input {
+    accent-color: var(--colorPrimary);
+    margin-right: 10px;
+}
+
+.registerInputError {
+    text-align: left;
+    font-size: 10px !important;
+    color: rgb(241, 50, 50) !important;
+    font-family: 300 !important;
+    margin: 0 0 0 10px !important;
+}
+
+#sponsorLoading {
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--colorPrimary);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: rotate 1s linear infinite;
+}
+
+#sponsorVerified {
+    margin: 0;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(34, 214, 34);
+}
+
+.registerSuccessDetails {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+.registerSuccessDetails>div {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+#successIcon {
+    background: var(--colorPrimary);
+    text-align: center;
+    padding: 20px;
+}
+
+#successIcon i {
+    font-size: 70px;
+    margin: 0;
+    color: var(--btnText);
+}
+
+#successIcon h1 {
+    color: var(--btnText);
+    margin: 0;
+    font-size: 25px;
+}
+
+#successDetails {
+    text-align: center;
+    background: white;
+    padding: 20px;
+}
+
+#successDetails>p {
+    color: rgb(61, 60, 60);
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+#successDetails p {
+    color: rgb(61, 60, 60);
+    margin: 0;
+}
+
+#successDetails>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+#successDetails>div>div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#successDetails i {
+    cursor: pointer;
+}
+
+#successDetails button {
+    width: 50%;
+    margin: auto;
+    background: var(--btnBackground);
+    border-radius: 25px;
+    padding: 8px;
+    color: black;
+    border: none;
+    transition: all 0.3s;
+}
+
+#successDetails button:hover {
+    transform: translateY(-5px);
+}
+
+.loginConnectDiv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.loginConnectDiv img {
+    width: 150px
+}
+
+
+.connectedAddress {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.connectedAddress h5 {
+    font-size: 12px;
+    margin: 0;
+    color: var(--textHeading);
+}
+
+.connectedAddress p {
+    font-size: 12px;
+    color: greenyellow;
+}
+
+.otpInputBox>div {
+    width: 100%;
+}
+
+.otpInputBox input {
+    flex: 1;
+}
+
+.registerOtp {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.781);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.registerOtp>div {
+    width: 400px;
+}
+
+@media (max-width:768px) {
+    .loginConnectDiv img {
+        width: 100px;
+    }
+}

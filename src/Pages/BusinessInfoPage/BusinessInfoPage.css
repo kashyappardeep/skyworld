@@ -1,0 +1,32 @@
+
+  .businessInfo {
+    background: var(--containerColor);
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+    color: var(--textHeading);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .businessInfo div {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #444;
+  }
+  
+  .businessInfo div:last-child {
+    border-bottom: none;
+  }
+  
+  .businessInfo p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .businessInfo p:first-child {
+    font-weight: bold;
+    color: var(--colorPrimary);
+  }
+  

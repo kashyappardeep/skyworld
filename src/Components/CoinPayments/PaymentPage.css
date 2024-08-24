@@ -1,0 +1,132 @@
+.paymentPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw; 
+    position: fixed; /* Make it fixed to cover the entire screen */
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background */
+    z-index: 1000; /* Ensure it is on top of other content */
+  }
+  
+  .paymentCard {
+    background: #1E1E1E; /* Match the background color of your application */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    color: #ffffff; /* Match the text color of your application */
+  }
+  
+  .paymentCard h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .paymentAmount p {
+    color: var(--colorPrimary);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .paymentAmount h2 {
+    font-size: 24px;
+    color: white; /* Match the highlight color of your application */
+  }
+  
+  .qrCode img {
+    width: 250px;
+    height: 250px;
+    margin: 10px 0;
+    border: 1px solid #ddd; /* Optional: Add a border to the QR code */
+    background: #fff; /* Ensure QR code has a white background */
+  }
+  
+  .paymentDetails {
+    margin: 20px 0;
+  }
+  
+  .paymentDetail {
+    margin-bottom: 10px;
+  }
+  
+  .paymentDetail p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--textColor);
+  }
+  
+  .addressContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .paymentDetail input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555; /* Match the border color of your application */
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+    background: #333; /* Match the input background color of your application */
+    color: #fff; /* Match the input text color of your application */
+  }
+  
+  .copyButton {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px; /* Adjust icon size */
+    padding: 0 5px; /* Adjust padding for better alignment */
+  }
+  
+  .copyButton:hover {
+    color: var(--colorPrimary); /* Match the hover color of your application */
+  }
+  
+  .payButton {
+    background-color: var(--colorPrimary); /* Match the button color of your application */
+    color: white;
+    padding: 10px 15px; /* Smaller button padding */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .payButton:hover {
+    background-color: var(--colorPrimary);
+  }
+  
+  .cancelText {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #e74c3c; /* Match the cancel text color of your application */
+    cursor: pointer;
+  }
+  
+  .cancelText:hover {
+    color: #c0392b;
+  }
+  
+  .paymentStatus {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb; /* Match the text color of your application */
+  }
+  @media(max-width:450px)
+  {
+    .paymentDetail input{
+      font-size: 12px;
+    }
+    
+
+  }

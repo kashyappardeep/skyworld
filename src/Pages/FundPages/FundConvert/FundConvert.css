@@ -1,0 +1,30 @@
+.fundConvertDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.fundConvertDiv>div {
+    text-align: center;
+
+}
+
+.fundConvertDiv h5 {
+    margin-bottom: 0;
+    color: var(--colorPrimary);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.fundConvertDiv p {
+    color: var(--textColor);
+    font-size: 13px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.fundConvertDiv i {
+    color: var(--colorPrimary);
+}

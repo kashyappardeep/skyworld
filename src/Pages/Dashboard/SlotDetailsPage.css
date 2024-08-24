@@ -1,0 +1,20 @@
+.slotDataDetails span {
+    width: 80px;
+    height: 80px;
+}
+
+.slotDetailDiv {
+    padding: 10px !important;
+}
+
+.slotDetailDiv>div {
+    padding: 0;
+    margin-bottom: 3px !important;
+}
+
+.slotDetailDiv p {
+    font-size: 12px;
+    margin: 0 !important;
+    font-weight: 300;
+    color: var(--textColor);
+}
